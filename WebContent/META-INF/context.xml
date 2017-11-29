@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Resource name="jdbc/bkxt" 
+		auth="Container" 
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://127.0.0.1:3306/bkxt"
+		username="root" 
+		password="root" 
+		maxActive="50" 
+		maxIdle="20"
+		maxWait="-1" />
+</Context>
