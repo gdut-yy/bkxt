@@ -1,0 +1,98 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	margin:0 auto;
+	text-align:center;
+	font-size:14px;
+	background:#eefeee;
+}
+#control {
+	padding:15px 0;
+	text-align:center;
+}
+#control input {
+	display:inline-block;
+	width:100px;
+	height:28px;
+	line-height:28px;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:url(../images/button.gif);
+	border:none;
+	margin-left:20px;
+}
+#control input:hover {
+	color:#f30;
+	cursor:pointer;
+}
+#control a:hover input {
+	color:#f30;
+	cursor:pointer;
+}
+#testcard {
+	margin:0 auto;
+	width:525px;
+	height:721px;
+	border:1px solid #999;
+	background:#fefefe;
+}
+#testcard h2 {
+	height:18px;
+	font-size:14px;
+	padding-top:50px;
+	text-align:center;
+}
+#testcard h3 {
+	height:18px;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:25px;
+	text-align:center;
+}
+#testcard #left {
+	font-size:12px;
+	width:330px;
+	margin-bottom:10px;
+	float:left;
+	text-align:left;
+	line-height:190%;
+}
+#testcard #left p {
+	padding-left:0;
+	color:#333;
+}
+#testcard #left span.label {
+	display:inline-block;
+	width:100px;
+	text-align:right;
+	font-weight:bold;
+	color:#333;
+}
+
+#testcard #right {
+	text-align:center;
+	width:30%;
+	float:left;
+	padding-top:6px;
+}
+
+#testcard #bottom {
+	text-align:left;
+	clear:both;
+	font-size:12px;
+	padding:10px 35px;
+	color:#222;
+	line-height:190%;
+	text-indent:12px;
+}
+#testcard hr {
+	display:block;
+	margin:0 auto;
+	clear:both;
+	width:90%;
+	color:#555;
+	border-style:dashed;
+}

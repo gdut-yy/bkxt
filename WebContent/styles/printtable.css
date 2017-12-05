@@ -1,0 +1,102 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	background:#eefeee;
+}
+#control {
+	padding:15px 0;
+	text-align:center;
+}
+#control input {
+	display:inline-block;
+	width:100px;
+	height:28px;
+	line-height:28px;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:url(../images/button.gif);
+	border:none;
+	margin-left:20px;
+}
+#control input:hover {
+	color:#f30;
+	cursor:pointer;
+}
+
+#infocard {
+	margin:0 auto;
+	width:525px;
+	background:#fefefe;
+	text-align:left;
+	margin-top:30px;
+	border:1px solid #000;
+}
+#header {
+	font-size:14px;
+	padding:25px 0 10px 0;
+	text-align:center;
+	font-weight:bold;
+	border:1px solid #000;
+}
+#ulline {
+	width:395px;
+	float:left;
+}
+#ulline ul{
+
+	list-style-type:none;
+}
+#ulline ul li {
+	height:26px;
+	line-height:26px;
+	border:1px solid #000;
+	padding-left:20px;
+
+}
+#photo {
+	float:right;
+	height:140px;
+	width:126px;
+	border:1px solid #000;
+	text-align:center;
+}
+#photo img {
+	border:none;
+}
+#center {
+	clear:both;
+}
+#center ul{
+	list-style-type:none;
+}
+#center ul li {
+	height:26px;
+	line-height:26px;
+	border:1px solid #000;
+	padding-left:20px;
+}
+li.label {
+	text-align:center;
+	background:#ddd;
+	font-weight:bold;
+}
+#footer {
+	border:1px solid #000;
+}
+#footer p {
+	font-weight:bold;
+	height:26px;
+	line-height:26px;
+	font-size:14px;
+	padding:10px 0 5px 15px;
+	text-indent:28px;
+}
+#footer p.rp {
+	text-align:right;
+}

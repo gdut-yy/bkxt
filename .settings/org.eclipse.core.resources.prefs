@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/entity/Course.java=UTF-8
+encoding//src/entity/Grade.java=UTF-8
+encoding//src/entity/Major.java=UTF-8
+encoding//src/entity/Reginfo.java=UTF-8
 encoding//src/filter/AdminFilter.java=UTF-8
 encoding//src/filter/JAdminFilter.java=UTF-8
 encoding//src/filter/SAdminFilter.java=UTF-8

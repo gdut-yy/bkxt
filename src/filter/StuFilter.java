@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet Filter implementation class StuFilter
  */
-@WebFilter("/StuFilter")
+@WebFilter(filterName="/StuFilter",urlPatterns= {"/stu/*","/includes/stu/*"})
 public class StuFilter implements Filter {
 
     /**

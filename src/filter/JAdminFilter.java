@@ -8,13 +8,14 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import entity.Adminuser;
 
 
-
+@WebFilter(filterName="JAdminFilter",urlPatterns="/jadmin/*")
 public class JAdminFilter implements Filter{
 
   @Override
